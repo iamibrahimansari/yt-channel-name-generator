@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif; }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../img/code.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-size: 1.6rem;
+  gap: 1rem; }
+
+header, main {
+  background-color: rgba(0, 0, 255, 0.3);
+  border: 2px solid #fff;
+  width: 30%; }
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 3rem; }
+
+.fa-youtube {
+  font-size: 5rem; }
+
+h1 {
+  font-size: 2rem;
+  text-align: center; }
+
+main {
+  padding: 1rem; }
+  main .submitSection {
+    margin-bottom: 2rem; }
+    main .submitSection__form {
+      display: flex;
+      justify-content: space-between; }
+    main .submitSection__input {
+      padding-inline: 1rem;
+      border: none;
+      outline: none;
+      width: 85%; }
+    main .submitSection__btn .fa-check {
+      font-size: 2.5rem;
+      color: #fff;
+      padding: 0.5rem;
+      cursor: pointer;
+      background-color: green; }
+  main .suggestionSection h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem; }
+  main .suggestionSection ol, main .suggestionSection ul {
+    list-style-position: inside; }
+  main .suggestionSection ul {
+    margin: 0.5rem auto 1.5rem auto;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem; }
+  main .suggestionSection p {
+    font-size: 1.2rem; }

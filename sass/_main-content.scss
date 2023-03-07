@@ -1,0 +1,48 @@
+main{
+    padding: 1rem;
+    .submitSection{
+        margin-bottom: 2rem;
+        &__form{
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        &__input{
+            padding-inline: 1rem;
+            border: none;
+            outline: none;
+            width: 85%;
+        }
+    
+        &__btn{
+            .fa-check{
+                font-size: 2.5rem;
+                color: #fff;
+                padding: 0.5rem;
+                cursor: pointer;
+                background-color: green;
+            }
+        }
+    }
+    .suggestionSection{
+        h2{
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        ol, ul{
+            list-style-position: inside;
+        }
+
+        ul{
+            margin: 0.5rem auto 1.5rem auto;
+            margin-left: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+    }    
+}
